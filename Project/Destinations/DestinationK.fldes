@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination test"
+  Host="ts.madcapsoftware.com"
+  User="MyAccountId"
+  Password=""
+  Directory="C:\Users\jflores\Desktop\ftp test"
+  Port="21"
+  ViewUrl="http://rnd.madcapsoftware.com"
+  Type="ftp"
+  AnonymousLogin="false"
+  ConnectionMode="Active"></CatapultDestination>

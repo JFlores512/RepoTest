@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/Home.htm"
+  MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp"
+  ConditionTagExpression="exclude[Conditions.Draft] "
+  IncludeCSHRuntime="false"
+  Skin="/Project/Skins/TopNav.flskn">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/PhoneNumber">123-555-8695</Variable>
+  </Variables>
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/DestinationK.fldes"
+      Publish="true" />
+  </Destinations>
+</CatapultTarget>
